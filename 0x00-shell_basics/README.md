@@ -1,2 +1,2 @@
 #!/bin/bash
-ls
+My first repository as a software egineer
