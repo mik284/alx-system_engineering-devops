@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Displays the shell PID.
+# this script print PID
 
-echo $$
+$BASHPID
