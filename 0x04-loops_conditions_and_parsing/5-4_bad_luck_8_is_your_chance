@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Displays diff message at 4,8 and other iterations
+
+COUNTER=0
+while [ $COUNTER -ne 10 ]
+do
+    if [ $COUNTER -eq 3 ]
+    then
+        echo "bad luck"
+    elif [ $COUNTER -eq 7 ]
+    then
+        echo "good luck"
+    else
+        echo "Best School"
+    fi
+    ((COUNTER++))
+done
