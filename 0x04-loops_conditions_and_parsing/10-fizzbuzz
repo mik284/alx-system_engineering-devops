@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# The infamous FizzBuzz for bash
+
+COUNTER=1
+while [ $COUNTER -ne 101 ]
+do
+	if [ $((COUNTER%15)) -eq 0 ]
+	then
+		echo "FizzBuzz"
+	elif [ $((COUNTER%5)) -eq 0 ]
+	then
+		echo "Buzz"
+	elif [ $((COUNTER%3)) -eq 0 ]
+	then
+		echo "Fizz"
+	else
+		echo "$COUNTER"
+	fi
+	((COUNTER++))
+done
