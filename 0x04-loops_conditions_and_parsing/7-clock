@@ -2,11 +2,12 @@
 # Displays time for 12hrs and 49 minutes
 
 Hours=0
-while [ $Hours -lt 13 ]
+minutes=1
+while [ $Hours -le 12 ]
 do
     echo "Hour: $Hours"
     minutes=1
-    while [ $minutes -lt 60 ]
+    while [ $minutes -le 59 ]
     do
         echo $minutes
         let minutes+=1
