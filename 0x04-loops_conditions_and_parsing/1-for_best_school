@@ -1,5 +1,5 @@
-#!usr/bin/env bash
-#This script prints "Best School" 10 times using for loop
+#!/usr/bin/env bash
+#This script prints "Best School" 10 times
 <<<<<<< HEAD
 
 for ((i=0; i<10; i++))
