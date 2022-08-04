@@ -3,5 +3,5 @@
 
 for item in *
 do
-        echo "$item" | cut -d'-' -f2
+    echo "$item" | cut -d'-' -f2
 done
