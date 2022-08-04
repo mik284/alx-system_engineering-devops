@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# Displays numbers from 1 to 20 and some loops iterations required to use while loop and case
+
+COUNTER=1
+while [ $COUNTER -ne 21 ] 
+do
+    case $COUNTER in
+        4) 
+            echo "$COUNTER"
+            echo "bad lusk from China"
+        ;;
+        9)
+            echo "$COUNTER"
+            echo "bad luck from Japan"
+        ;;
+        17)
+             echo "$COUNTER"
+            echo "bad luck from Italy"
+        ;;
+        *) echo "$COUNTER"
+        ;;
+    esac
+    ((COUNTER++))
+done
